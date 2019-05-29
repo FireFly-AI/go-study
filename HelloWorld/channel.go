@@ -1,5 +1,5 @@
 package main
-
+/*采用chan通道进行数据通信，这是最基本的用法*/
 import "fmt"
 // 消费者
 func consumer(data chan int, done chan bool) {
